@@ -25,7 +25,7 @@ variable "cluster_name" {
 variable "cluster_version" {
     description = "version of the eks cluster"
     type = string
-    default = null
+    default = "1.34"
 }
 
 variable "cluster_service_ipv4_cidr" {

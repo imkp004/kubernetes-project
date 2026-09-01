@@ -5,5 +5,5 @@ locals {
 
   name = "${local.owners}-${local.environment}"
 
-  eks-cluster_name = "${local.owners}-${var.cluster_name}"
+  eks_cluster_name = "${local.owners}-${var.cluster_name}"
 }
